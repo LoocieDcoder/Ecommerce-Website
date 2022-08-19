@@ -496,7 +496,7 @@ footer .col {
 }
 
 footer .logo {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 footer h4 {
@@ -506,7 +506,7 @@ footer h4 {
 
 footer p {
     font-size: 13px;
-    margin: 0px 0 8px 0;
+    margin: 0 0 8 0;
 }
 
 footer a {
@@ -531,9 +531,37 @@ footer .install .row img {
     border-radius: 6px;
 }
 
+footer .install .row img {
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #0d5c5c;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+
+
 /* Shop Page */
 
 
 /* Single Product */
 
 /* Blog Page */
+
+
+
+/* Start Media Query*/
+
+@media (max-width: 799) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
