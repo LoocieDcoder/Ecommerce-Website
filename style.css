@@ -309,6 +309,15 @@ body {
     right: 10px;
 }
 
+.fa-solid,
+.fas {
+    font-weight: 900;
+    align-items: center;
+    color: #f7b806;
+    transition: 0.3s ease;
+}
+
+
 #banner {
     display: flex;
     flex-direction: column;
